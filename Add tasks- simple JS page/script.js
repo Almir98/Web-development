@@ -82,10 +82,7 @@ function clearAllTasks(e)
 
 //         }
 //     })
-
-
-
-}
+//}
 
 
 
