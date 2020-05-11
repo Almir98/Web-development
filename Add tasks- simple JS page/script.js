@@ -5,14 +5,17 @@ const filter=document.querySelector('#filter');
 const taskInput=document.querySelector('#task');
 
 
-loadAllListeners();
-
 function loadAllListeners()
 {
-    form.addEventListener("submit",addtask);
+    form.addEventListener("submit",addtask);        // Add new tak
+    tasklist.addEventListener("click",removeTask);      // remove 1 task
+    clearBtn.addEventListener('click',clearAllTasks);   // clear all
+    filter.addEventListener('keyup',filterTasks);       // filter task
 }
 
+loadAllListeners();
 
+// Adding new task inside collection
 function addtask(e)
 { 
     e.preventDefault();
@@ -38,9 +41,51 @@ function addtask(e)
    }
 }
 
+// Remove task from collection
+
+function removeTask(e)
+{
+    e.preventDefault();
+
+    if(e.target.parentElement.classList.contains('delete-item'))
+    {
+        if(confirm('Are you sure ?')){
+            e.target.parentElement.parentElement.remove();
+        }
+    }
+}
+
+// Remove task from collection
+
+function clearAllTasks(e)
+{
+    e.preventDefault();
+    tasklist.innerHTML='';
+}
+
+// Filter tasks
+
+// function filterTasks(e)
+// {
+//     e.preventDefault();
+//     var text=document.querySelector('.name').value;
+
+//     document.querySelectorAll('.collection-item').forEach
+//     (function(task){
+//         const item=task.firstChild.textContent;
+//         if(item.toLocaleLowerCase().indexOf(text))
+//         {
+//             task.style.display='block';
+//         }
+//         else{
+//             task.style.display='none';
+
+//         }
+//     })
 
 
 
+}
 
 
 
