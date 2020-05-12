@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+}
+
+span{
+    color: white;
+}
+#wrapper{
+    margin-left:285px;
+}
+
+#IzbornikDugme{
+    display:block;
+    color: white;
+}
+
+.IzbornikStavka{
+    display: block;
+    text-decoration: none;
+    margin: 20px;
+    font-size:23px;
+    color: white;
+    margin-left: 35px;
+}
+
+hr{
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 4px;
+    margin-left:0;
+   }
+
+
+   h1{
+     
+    margin: 10px 0;
+    font-size: 64px;
+    font-weight: 500;
+   }
+   h2{
+   
+    margin: 10px 0;
+    font-size: 48px;
+    color: #f44336;
+    font-weight: 500;
+   }
+
+   .Kontejner{
+
+        margin-top: 90px;     
+        clear:both;
+        width:100%;  
+        overflow: hidden;
+
+   }
+
+   .SlikaKolona{
+       width: 50%;
+       float: left;
+   }
+
+   .SlikaKolona img{
+       float: left;
+       display: block;
+}
+
+
+.TeamKolona{
+    float: left;
+    background-color: lightgray;
+    width:21%;
+    margin: 25px;
+}
+
+.TeamKolona img{
+    width: 100%;
+    border: 1px solid black;
+ }
+
+ .PaketiDiv{
+     width:100%;
+ }
+
+.PaketKolona{
+    width: 48%;
+    float: left;
+    background-color:lightgray;
+    text-align: center;
+    font-size: 20px;
+    margin-right:20px;
+
+
+
+}
+
+li{
+    border-top: 1px solid rgb(182, 154, 154);
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+.first{
+    background-color: gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.BtnSignUp{
+    padding: 8px;
+    font-size: 17px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 98%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.BtnSend{
+    background-color: red;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
