@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: url("images/dark-wood.jpg");
+    height:700px;
+}
+
+.wrapper{
+    width:940px;
+    margin: auto;
+    border: 3px solid black;
+    margin-top:20px;
+    background-color: white;
+    height:700px;
+}
+
+header{
+    height:160px;
+}
+
+#navbar{
+height:25px;
+}
+
+li{
+    display: inline-block;
+    font-size:20px;
+}
+
+ul{
+    word-spacing:25px;
+    list-style: none;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: gray;
+}
+
+
+.courses{
+    width: 70%;
+    height:700px;
+    float: left;
+}
+
+
+article{
+    height:250px ;
+    float: left;
+    width:80%;
+}
+
+figure{
+    width:30%;
+    float: left;
+}
+
+hgroup{
+    width: 55%;
+    margin-left: 350px;
+}
+
+aside{
+    width: 30%;
+    height:700px;
+    float: left;
+}
+
+aside section a{
+display: block;
+font-size: 18px;
+color: salmon;
+padding: 10px;
+border-bottom: 1px solid #eeeeee;
+padding-top: 15px;
+}
+
+h2{
+    width: 80%;
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#tekst{
+    width: 70%;
+    margin: auto;
+}
+
+#naslov{
+    width: 70%;
+    margin: auto;
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
