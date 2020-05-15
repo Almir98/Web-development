@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <title>Simple jquery form validation</title>
+    </head>
+    <body>
+        <h3>Simple Jquery form validation</h3><br>
+        <form id="formaid" action="" method="POST">
+            Dostava ime<br />
+            <input type="text" class="form form-control" placeholder="Unesite ime..." name="DostavaIme" id="DostavaIme" value="">
+            
+            <br /> <br />
+            <p>Dostava adresa :</p>
+            <input type="text" class="form form-control" name="DostavaAdresa" id="DostavaAdresa"value="">
+            <br />
+
+            <p>Dostava telefon:</p>
+            <input type="text" class="form form-control" placeholder="+387-06x-xxx-xxx" name="DostavaTelefon" id="DostavaTelefon"value="">
+            <br>
+
+            <p>Broj indeksa:</p>
+            <input class="form form-control" placeholder="IB1xxxxx" type="text" name="indeks">
+            <br />
+            
+            <p>Napomena :</p>
+            <input class="form form-control" type="text" name="Napomena" id="Napomena"value="">
+            <br />
+
+            <!-- <input type="button" class="btn btn-primary" value="Submit" id="submitId" onclick="snimi()"> <br /> -->
+        </form>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
+        <script src="script.js"></script>
+    </body>
+ </html>
+    
