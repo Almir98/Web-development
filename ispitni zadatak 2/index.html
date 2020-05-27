@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>WRD ISPIT</title>
+</head>
+<body>
+
+<div id="glavni">
+        <div id="lijeviDiv">
+            <form id="forma">
+                <label for="dostavaIme">Ime</label>
+                <input id="dostavaIme" name="dostavaIme" placeholder="kupac ime"/>
+                <br>
+                <label for="dostavaAdresa">Adresa</label>
+                <input id="dostavaAdresa" name="dostavaAdresa" placeholder="kupac adresa"/>
+                <br>
+                
+                <label for="dostavaPostanskiBroj">Poštanski broj</label>
+                <input id="dostavaPostanskiBroj" name="dostavaPostanskiBroj" value=""/>
+                <br>
+                
+                <label for="dostavaTelefon">Telefon</label>
+                <input id="dostavaTelefon" name="dostavaTelefon" placeholder="+387-61-888-8888"/>
+                <br>
+                
+                <label for="napomena">Napomena</label>
+                <textarea id="napomena"  style="width: 100%" ></textarea><br>
+                <input id='button' type="submit" onclick="Dodaj()" value="Dodaj kupca"  />
+            </form>
+        <label for="filtiranje">Filtriraj podatke po imenu</label>
+        <input id="filtiranje" placeholder="upisi dio imena"/>
+
+        <table id="tabelaID" border="1px"  >
+            <tdead>
+                <tr>
+                    <th>Id Kupca</th>
+                    <th>Datum</th>
+                    <th>Ime</th>
+                    <th>Adresa</th>
+                    <th>Poštanski broj</th>
+                    <th>Telefon</th>
+                    <th>Napomena</th>
+                </tr>
+            </tdead>
+            <tbody>
+
+
+
+            </tbody>
+        </table>
+
+    </div>
+    
+    <div id="desniDiv">
+
+        <div id="gornjiDesni">
+            <div id='nav'>
+                <div id="brIndexa" style="font-size:30px;">
+                    <a id="IzbornikDugme">☰</a><span>BROJ INDEXA</span>
+                </div>
+                <br>
+                <div id="Izbornik" style="clear:botd">
+                    <a class="IzbornikStavka" href="#">HOME</a> 
+                    <a class="IzbornikStavka" href="#">AMF 1</a> 
+                    <a class="IzbornikStavka" href="#">AMF 2</a> 
+                    <a class="IzbornikStavka" href="#">AMF 3</a> 
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="donjiDesni">
+            Fakultet informacijskih tehnologija
+        </div>
+    </div>
+</div>
+
+<script src="./external/jquery/jquery.js"></script>
+<script src="./jquery-validation-1.16.0/dist/jquery.validate.js"></script>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
