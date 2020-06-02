@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/slika.jpg) fixed no-repeat;
+    background-size: cover;
+}
+
+label.error{
+    color: red;
+    display: block;
+}
+
+#providnoNav {
+    background: #7878f5a8;
+    width: 20%;
+    color: white;
+    float: left;
+    height: 100%;
+    position: fixed;
+}
+
+.IzbornikStavka{
+    text-decoration:none;
+    color: white;
+    font-size: 30px;
+    display: block;
+    margin-top: 15px;
+    padding-left: 100px;
+}
+
+.IzbornikStavka:hover{
+    background-color: rgba(128, 128, 128, 0.651);
+}
+
+#IzbornikDugme{
+    display: none;
+}
+
+span{
+    margin-left: 40px;
+}
+
+#proizvodi{
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    width: 30%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+input{
+    padding: 5px;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#forma{
+    margin: 10px;
+}
+
+#opcija{
+    width: 50%;
+}
+
+#narudzbe{
+    width: 100%;
+}
+
+
+#wrapper {
+    background: #ffffffcc;
+    margin-left: 20%;
+    width: 60%;
+    height: 100%;
+}
+
+@media only screen and (max-width:600px)
+{
+
+#providnoNav {
+    width: 100%;
+    height: 200px;
+    position: static;
+}
+
+.IzbornikStavka{
+    display: inline;
+    font-size: 20px;
+    margin: 17px;
+    padding: 0;
+}
+    
+ #wrapper{
+     width: 100%;
+     margin: 0;
+     overflow: hidden;
+ }
+
+ html,body{
+     overflow-x: hidden;
+ }
+
+}
